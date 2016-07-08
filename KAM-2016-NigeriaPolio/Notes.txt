@@ -1,0 +1,16 @@
+Notes on what's in this directory:
+Executable: Eradication_r4700.exe
+
+Folders: contain parsed simulation outputs and example input files.
+	Input subfolders: Example config, campaign, demographic, and migration inputs usable by Eradication_r4700.exe.  See EMOD documentation (http://idmod.org/emoddoc/) for info on how to use DTK.  In the future, could potentially place all of the config and campaign files generated during the calibration runs; unless somebody plans to rerun all of these simulations, this seems unnecessary.
+
+	Output subfolders: contains a summarized csv file with parameters and corresponding objective scores.  
+				Notes: When doing this, I discovered that the score for the statewide case time series received an additive offset of approximately 2000.  This isn't inherently a problem, an additive offset affects nothing.  But somebody looking may be surprised to see score values >1, given the definition of the score in the paper.
+				There are two score columns of interest.  "total_logscore_for_scatterplots" should be the sum of the "logscore_" columns.  The "logscoreweights_regularized_for_distributions" is regularized somewhat - normalize by the number of data points used to compute each score component, to bring them onto the same relative "scale", and shifted to bring these score weights to between log(realmin) and log(realmax), to allow for exponentiation back to the real score weights.
+
+The scatter plots in the paper should easily be generated from here by reading in the summary csv and scattering the parameter values and score values (note that the color axis in the paper runs from the 25th quantile of the score distribution to the max, as the worst score values are exceedingly low).  Generating the contour distributions is not possible without the simulation outputs, unavailable on git due to the file size restrictions.  We are working on a fix for this issue, and will link from here to a full repository when available.
+
+
+Where's the data and objective functions to validate that part of the paper?
+This is obviously far more interesting than just the simulation output.  However, the data is under a data sharing agreement preventing public access, and obviously the objective functions require the data as well, and so are omitted. 
+	
