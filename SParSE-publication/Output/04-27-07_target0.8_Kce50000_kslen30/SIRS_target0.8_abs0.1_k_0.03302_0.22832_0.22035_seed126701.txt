@@ -1,0 +1,32 @@
+
+##### Sim 28	Initial state: 100    1    0 with rates: 0.033024     0.22832     0.22035 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 3.17 sec
+Target event was reached 46591 times with gamma 1  1  1
+Distance between the target and current fraction is -0.13182 and p_hat is: 0.93182
+counter at 1: 46591
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+
+***** Change in bias direction: OP from UP ******
+::OP:: Updating rate from 0.033024     0.22832     0.22035 to 0.033024     0.22832     0.22035 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.033024     0.22832     0.22035
+::OP:: stage of CE took 45.74 sec
+::OP:: IEs for rhos 0.100 are 85 with percs 12.99%
+::OP:: IEs for rhos 0.150 are 84 with percs 18.95%
+::OP:: IEs for rhos 0.200 are 83 with percs 25.91%
+	second stage using gamma: 1  1  1 and k: 0.033024     0.22832     0.22035
+	second stage of CE took 41.44 sec
+	Gamma for IE = 85 is 0.94354      1.5215     0.72626
+	Gamma for IE = 84 is 0.94943      1.4499     0.75686
+	Gamma for IE = 83 is 0.95477      1.3846     0.78152
+
+first mCE stage index: 1 using gamma: 0.94354      1.5215     0.72626
+first stage of CE took 3.39 sec
+Target event was reached 44503 times with gamma 0.94354      1.5215     0.72626
+Distance between the target and current fraction is -0.09006 and p_hat is: 0.89006
+
+
+*****Success: less than 0.100 distance remaining from target*****
+final rate is 0.031159      0.3474     0.16003
+total simulation time is 93.7561
+

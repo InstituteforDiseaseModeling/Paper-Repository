@@ -1,0 +1,32 @@
+
+##### Sim 19	Initial state: 100    1    0 with rates: 0.10831      2.7083     0.94269 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 108.55 sec
+Target event was reached 17048 times with gamma 1  1  1
+Distance between the target and current fraction is 0.05904 and p_hat is: 0.34096
+counter at 1: 17048
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+**Updating rate from 0.10831      2.7083     0.94269 to 0.10831      2.7083     0.94269 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 34.10%
+	second stage using gamma: 1  1  1 and k: 0.10831      2.7083     0.94269
+	second stage of CE took 104.31 sec
+	Gamma for IE = 50 is 1.0614     0.84989       1.074
+
+first mCE stage index: 1 using gamma: 1.0614     0.84989       1.074
+first stage of CE took 33.44 sec
+Target event was reached 34445 times with gamma 1.0614     0.84989       1.074
+Distance between the target and current fraction is -0.28890 and p_hat is: 0.68890
+counter at 2: 34445
+gammas at 2 with respect to k_default: 1.061 0.850 1.074
+### Both UP and OP are reached with last stage as leaping. Last leaping initiated with gamma from weighted average ###
+
+first stage, last leaping using gamma: 1.0104     0.97453      1.0126
+first stage of CE took 89.84 sec
+Target event was reached 20216 times with gamma 1.0104     0.97453      1.0126
+Distance between the target and current fraction is -0.00432 and p_hat is: 0.40432
+
+
+*****Success: less than 0.010 distance remaining from target*****
+final rate is 0.10944      2.6393     0.95453
+total simulation time is 336.1552
+

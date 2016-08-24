@@ -1,0 +1,86 @@
+
+##### Sim 5	Initial state: 100    1    0 with rates: 0.021252      1.1058     0.63078 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 34.97 sec
+Target event was reached 13 times with gamma 1  1  1
+Distance between the target and current fraction is 0.59974 and p_hat is: 0.00026
+counter at 1: 13
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+**Updating rate from 0.021252      1.1058     0.63078 to 0.021252      1.1058     0.63078 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 44 with percs 0.83%
+IEs for rhos 0.010 are 43 with percs 1.36%
+	second stage using gamma: 1  1  1 and k: 0.021252      1.1058     0.63078
+	second stage of CE took 35.55 sec
+	Gamma for IE = 44 is 1.0675     0.90319      1.0267
+	Gamma for IE = 43 is 1.0653     0.91089      1.0259
+
+first mCE stage index: 1 using gamma: 1.0675     0.90319      1.0267
+first stage of CE took 52.16 sec
+Target event was reached 369 times with gamma 1.0675     0.90319      1.0267
+Distance between the target and current fraction is 0.59262 and p_hat is: 0.00738
+counter at 2: 369
+gammas at 2 with respect to k_default: 1.067 0.903 1.027
+**Updating rate from 0.021252      1.1058     0.63078 to 0.022686     0.99879     0.64761 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 50 with percs 0.74%
+IEs for rhos 0.010 are 49 with percs 1.23%
+	second stage using gamma: 1  1  1 and k: 0.022686     0.99879     0.64761
+	second stage of CE took 58.63 sec
+	Gamma for IE = 50 is 1.0642      0.9014      1.0417
+	Gamma for IE = 49 is 1.0619     0.91097       1.035
+
+first mCE stage index: 1 using gamma: 1.0642      0.9014      1.0417
+first stage of CE took 60.30 sec
+Target event was reached 3871 times with gamma 1.0642      0.9014      1.0417
+Distance between the target and current fraction is 0.52258 and p_hat is: 0.07742
+counter at 3: 3871
+gammas at 3 with respect to k_default: 1.136 0.814 1.070
+	### Qualified for leaping: mean_step:3502	apprx_future_steps:7	multiplier: 3
+	### Leaping initiated, skip the second stage ###
+
+first stage with leaping using gamma: 1.1     0.84636       1.065
+first stage of CE took 55.63 sec
+Target event was reached 10887 times with gamma 1.1     0.84636       1.065
+Distance between the target and current fraction is 0.38226 and p_hat is: 0.21774
+counter at 4: 10887
+gammas at 4 with respect to k_default: 1.174 0.764 1.093
+**Updating rate from 0.022686     0.99879     0.64761 to 0.024955     0.84534      0.6897 and resetting gammas to 1s... **
+IEs for rhos 0.010 are 50 with percs 21.77%
+	second stage using gamma: 1  1  1 and k: 0.024955     0.84534      0.6897
+	second stage of CE took 56.43 sec
+	Gamma for IE = 50 is 1.0277     0.95165      1.0225
+
+first mCE stage index: 1 using gamma: 1.0277     0.95165      1.0225
+first stage of CE took 43.87 sec
+Target event was reached 20382 times with gamma 1.0277     0.95165      1.0225
+Distance between the target and current fraction is 0.19236 and p_hat is: 0.40764
+counter at 5: 20382
+gammas at 5 with respect to k_default: 1.207 0.727 1.118
+**Updating rate from 0.024955     0.84534      0.6897 to 0.025647     0.80446     0.70521 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 40.76%
+	second stage using gamma: 1  1  1 and k: 0.025647     0.80446     0.70521
+	second stage of CE took 48.10 sec
+	Gamma for IE = 50 is 1.0178     0.96601      1.0184
+
+first mCE stage index: 1 using gamma: 1.0178     0.96601      1.0184
+first stage of CE took 36.17 sec
+Target event was reached 27152 times with gamma 1.0178     0.96601      1.0184
+Distance between the target and current fraction is 0.05696 and p_hat is: 0.54304
+counter at 6: 27152
+gammas at 6 with respect to k_default: 1.228 0.703 1.139
+	### NOT qualified for leaping: mean_step:7760.33	apprx_future_steps:0	cutoff step size: 5
+**Updating rate from 0.025647     0.80446     0.70521 to 0.026105     0.77712     0.71817 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 54.30%
+	second stage using gamma: 1  1  1 and k: 0.026105     0.77712     0.71817
+	second stage of CE took 32.27 sec
+	Gamma for IE = 50 is 1.0133     0.97485      1.0136
+
+first mCE stage index: 1 using gamma: 1.0133     0.97485      1.0136
+first stage of CE took 25.30 sec
+Target event was reached 31427 times with gamma 1.0133     0.97485      1.0136
+Distance between the target and current fraction is -0.02854 and p_hat is: 0.62854
+
+
+*****Success: less than 0.050 distance remaining from target*****
+final rate is 0.026453     0.75757     0.72793
+total simulation time is 540.2377
+

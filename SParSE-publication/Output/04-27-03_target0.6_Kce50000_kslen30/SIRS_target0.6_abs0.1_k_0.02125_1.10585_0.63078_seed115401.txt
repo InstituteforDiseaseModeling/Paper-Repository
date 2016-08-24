@@ -1,0 +1,76 @@
+
+##### Sim 5	Initial state: 100    1    0 with rates: 0.021252      1.1058     0.63078 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 36.05 sec
+Target event was reached 15 times with gamma 1  1  1
+Distance between the target and current fraction is 0.59970 and p_hat is: 0.00030
+counter at 1: 15
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+**Updating rate from 0.021252      1.1058     0.63078 to 0.021252      1.1058     0.63078 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 45 with percs 0.62%
+IEs for rhos 0.010 are 43 with percs 1.53%
+	second stage using gamma: 1  1  1 and k: 0.021252      1.1058     0.63078
+	second stage of CE took 36.31 sec
+	Gamma for IE = 45 is 1.0804     0.89062      1.0357
+	Gamma for IE = 43 is 1.066     0.91313      1.0298
+
+first mCE stage index: 1 using gamma: 1.0804     0.89062      1.0357
+first stage of CE took 53.79 sec
+Target event was reached 540 times with gamma 1.0804     0.89062      1.0357
+Distance between the target and current fraction is 0.58920 and p_hat is: 0.01080
+counter at 2: 540
+gammas at 2 with respect to k_default: 1.080 0.891 1.036
+**Updating rate from 0.021252      1.1058     0.63078 to 0.022962     0.98489      0.6533 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 50 with percs 1.08%
+	second stage using gamma: 1  1  1 and k: 0.022962     0.98489      0.6533
+	second stage of CE took 53.39 sec
+	Gamma for IE = 50 is 1.0645     0.89304      1.0323
+
+first mCE stage index: 1 using gamma: 1.0645     0.89304      1.0323
+first stage of CE took 59.63 sec
+Target event was reached 5825 times with gamma 1.0645     0.89304      1.0323
+Distance between the target and current fraction is 0.48350 and p_hat is: 0.11650
+counter at 3: 5825
+gammas at 3 with respect to k_default: 1.150 0.795 1.069
+	### NOT qualified for leaping: mean_step:5285	apprx_future_steps:4	cutoff step size: 5
+**Updating rate from 0.022962     0.98489      0.6533 to 0.024442     0.87955     0.67442 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 50 with percs 11.65%
+	second stage using gamma: 1  1  1 and k: 0.024442     0.87955     0.67442
+	second stage of CE took 69.71 sec
+	Gamma for IE = 50 is 1.0353     0.93819      1.0283
+
+first mCE stage index: 1 using gamma: 1.0353     0.93819      1.0283
+first stage of CE took 50.60 sec
+Target event was reached 15065 times with gamma 1.0353     0.93819      1.0283
+Distance between the target and current fraction is 0.29870 and p_hat is: 0.30130
+counter at 4: 15065
+gammas at 4 with respect to k_default: 1.191 0.746 1.099
+**Updating rate from 0.024442     0.87955     0.67442 to 0.025305     0.82518     0.69349 and resetting gammas to 1s... **
+IEs for rhos 0.010 are 50 with percs 30.13%
+	second stage using gamma: 1  1  1 and k: 0.025305     0.82518     0.69349
+	second stage of CE took 51.49 sec
+	Gamma for IE = 50 is 1.0238     0.95764        1.02
+
+first mCE stage index: 1 using gamma: 1.0238     0.95764        1.02
+first stage of CE took 39.04 sec
+Target event was reached 23584 times with gamma 1.0238     0.95764        1.02
+Distance between the target and current fraction is 0.12832 and p_hat is: 0.47168
+counter at 5: 23584
+gammas at 5 with respect to k_default: 1.219 0.715 1.121
+	### NOT qualified for leaping: mean_step:8879.5	apprx_future_steps:0	cutoff step size: 5
+**Updating rate from 0.025305     0.82518     0.69349 to 0.025906     0.79023     0.70738 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 47.17%
+	second stage using gamma: 1  1  1 and k: 0.025906     0.79023     0.70738
+	second stage of CE took 40.45 sec
+	Gamma for IE = 50 is 1.0149     0.96969      1.0155
+
+first mCE stage index: 1 using gamma: 1.0149     0.96969      1.0155
+first stage of CE took 30.04 sec
+Target event was reached 29207 times with gamma 1.0149     0.96969      1.0155
+Distance between the target and current fraction is 0.01586 and p_hat is: 0.58414
+
+
+*****Success: less than 0.100 distance remaining from target*****
+final rate is 0.026291     0.76628     0.71832
+total simulation time is 520.5338
+

@@ -1,0 +1,63 @@
+
+##### Sim 18	Initial state: 100    1    0 with rates: 0.13492      2.1431      2.0231 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 4.16 sec
+Target event was reached 42184 times with gamma 1  1  1
+Distance between the target and current fraction is -0.44368 and p_hat is: 0.84368
+counter at 1: 42184
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+
+***** Change in bias direction: OP from UP ******
+::OP:: Updating rate from 0.13492      2.1431      2.0231 to 0.13492      2.1431      2.0231 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.13492      2.1431      2.0231
+::OP:: stage of CE took 345.08 sec
+::OP:: IEs for rhos 0.010 are 76 with percs 1.17%
+::OP:: IEs for rhos 0.015 are 75 with percs 1.92%
+	second stage using gamma: 1  1  1 and k: 0.13492      2.1431      2.0231
+	second stage of CE took 358.89 sec
+	Gamma for IE = 76 is 0.89134      1.5671     0.73698
+	Gamma for IE = 75 is 0.89422      1.5235     0.76541
+
+first mCE stage index: 1 using gamma: 0.89134      1.5671     0.73698
+first stage of CE took 172.28 sec
+Target event was reached 11390 times with gamma 0.89134      1.5671     0.73698
+Distance between the target and current fraction is 0.17220 and p_hat is: 0.22780
+counter at 2: 11390
+gammas at 2 with respect to k_default: 0.891 1.567 0.737
+### Both UP and OP are reached with last stage as leaping. Last leaping initiated with gamma from weighted average ###
+
+first stage, last leaping using gamma: 0.92172      1.4085     0.81052
+first stage of CE took 115.81 sec
+Target event was reached 24649 times with gamma 0.92172      1.4085     0.81052
+Distance between the target and current fraction is -0.09298 and p_hat is: 0.49298
+counter at 3: 24649
+gammas at 3 with respect to k_default: 0.922 1.409 0.811
+
+Interpolation index: 1: Compute candidate gammas from interpolation
+
+*** Starting interpolation function ***
+Rxn 1 R2 goodness of fit: 0.904668 
+Rxn 1 R2 goodness of fit with farthest op removal: 1.000000 
+Fit is better after removing farthest op. Computing new fit
+Rxn 2 R2 goodness of fit: 0.904668 
+Rxn 2 R2 goodness of fit with farthest op removal: 1.000000 
+Fit is better after removing farthest op. Computing new fit
+Rxn 3 R2 goodness of fit: 0.904668 
+Rxn 3 R2 goodness of fit with farthest op removal: 1.000000 
+Fit is better after removing farthest op. Computing new fit
+projected optimal biasing parameter candidates for R1, wrt to k_default: 0.91350
+candidate rates for the next iteration: 0.12325
+projected optimal biasing parameter candidates for R2, wrt to k_default: 1.45146
+candidate rates for the next iteration: 3.11061
+projected optimal biasing parameter candidates for R3, wrt to k_default: 0.79061
+candidate rates for the next iteration: 1.59947
+Starting 1 simulation from interpolated gammas: 0.913  1.451  0.791
+Interpolation stage took 133.82 sec
+	## Target event was reached 20733 times with gamma 0.9135      1.4515     0.79061##
+	## Distance between the target and current fraction is -0.015##
+
+	*****Success: less than 0.050 distance remaining from target*****
+	     Exisiting Interpolation...
+	     Final rate is 0.12325      3.1106      1.5995
+	     Total simulation time is 1130.0645
+

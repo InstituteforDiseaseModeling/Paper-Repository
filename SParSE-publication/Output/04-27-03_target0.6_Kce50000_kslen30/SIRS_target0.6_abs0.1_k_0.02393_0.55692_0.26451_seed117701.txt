@@ -1,0 +1,12 @@
+
+##### Sim 28	Initial state: 100    1    0 with rates: 0.023933     0.55692     0.26451 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 19.95 sec
+Target event was reached 25154 times with gamma 1  1  1
+Distance between the target and current fraction is 0.09692 and p_hat is: 0.50308
+
+
+*****Success: less than 0.100 distance remaining from target*****
+final rate is 0.023933     0.55692     0.26451
+total simulation time is 19.9588
+

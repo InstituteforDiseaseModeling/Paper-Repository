@@ -1,0 +1,41 @@
+
+##### Sim 23	Initial state: 100    1    0 with rates: 0.011013     0.76532      2.6038 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 18.03 sec
+Target event was reached 286 times with gamma 1  1  1
+Distance between the target and current fraction is 0.39428 and p_hat is: 0.00572
+counter at 1: 286
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+**Updating rate from 0.011013     0.76532      2.6038 to 0.011013     0.76532      2.6038 and resetting gammas to 1s... **
+IEs for rhos 0.010 are 48 with percs 1.21%
+IEs for rhos 0.050 are 43 with percs 5.77%
+IEs for rhos 0.100 are 40 with percs 10.99%
+	second stage using gamma: 1  1  1 and k: 0.011013     0.76532      2.6038
+	second stage of CE took 17.55 sec
+	Gamma for IE = 48 is 1.0881     0.91195      1.0099
+	Gamma for IE = 43 is 1.0668     0.92906      1.0062
+	Gamma for IE = 40 is 1.0566     0.94035      1.0043
+
+first mCE stage index: 1 using gamma: 1.0881     0.91195      1.0099
+first stage of CE took 28.07 sec
+Target event was reached 8902 times with gamma 1.0881     0.91195      1.0099
+Distance between the target and current fraction is 0.22196 and p_hat is: 0.17804
+counter at 2: 8902
+gammas at 2 with respect to k_default: 1.088 0.912 1.010
+	### NOT qualified for leaping: mean_step:8616	apprx_future_steps:1	cutoff step size: 5
+**Updating rate from 0.011013     0.76532      2.6038 to 0.011983     0.69793      2.6295 and resetting gammas to 1s... **
+IEs for rhos 0.010 are 50 with percs 17.80%
+	second stage using gamma: 1  1  1 and k: 0.011983     0.69793      2.6295
+	second stage of CE took 27.30 sec
+	Gamma for IE = 50 is 1.0368     0.95901      1.0064
+
+first mCE stage index: 1 using gamma: 1.0368     0.95901      1.0064
+first stage of CE took 23.79 sec
+Target event was reached 17721 times with gamma 1.0368     0.95901      1.0064
+Distance between the target and current fraction is 0.04558 and p_hat is: 0.35442
+
+
+*****Success: less than 0.050 distance remaining from target*****
+final rate is 0.012424     0.66932      2.6464
+total simulation time is 114.7677
+

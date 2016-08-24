@@ -1,0 +1,120 @@
+
+##### Sim 27	Initial state: 100    1    0 with rates: 0.081165       1.071      2.2808 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 3.71 sec
+Target event was reached 43484 times with gamma 1  1  1
+Distance between the target and current fraction is -0.46968 and p_hat is: 0.86968
+counter at 1: 43484
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+
+***** Change in bias direction: OP from UP ******
+::OP:: Updating rate from 0.081165       1.071      2.2808 to 0.081165       1.071      2.2808 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.081165       1.071      2.2808
+::OP:: stage of CE took 256.15 sec
+::OP:: IEs for rhos 0.010 are 83 with percs 1.42%
+::OP:: IEs for rhos 0.015 are 82 with percs 2.73%
+	second stage using gamma: 1  1  1 and k: 0.081165       1.071      2.2808
+	second stage of CE took 262.30 sec
+	Gamma for IE = 83 is 0.97684      1.0481     0.97766
+	Gamma for IE = 82 is 0.98019        1.04     0.97903
+
+first mCE stage index: 1 using gamma: 0.97684      1.0481     0.97766
+first stage of CE took 3.69 sec
+Target event was reached 42940 times with gamma 0.97684      1.0481     0.97766
+Distance between the target and current fraction is -0.45880 and p_hat is: 0.85880
+counter at 2: 42940
+gammas at 2 with respect to k_default: 0.977 1.048 0.978
+	### Qualified for leaping: mean_step:544	apprx_future_steps:42	multiplier: 5
+	### Leaping initiated, skip the second stage ###
+
+first stage with leaping using gamma: 0.85646      1.2981     0.86156
+first stage of CE took 4.89 sec
+Target event was reached 39928 times with gamma 0.85646      1.2981     0.86156
+Distance between the target and current fraction is -0.39856 and p_hat is: 0.79856
+counter at 3: 39928
+gammas at 3 with respect to k_default: 0.856 1.298 0.862
+::OP:: Updating rate from 0.081165       1.071      2.2808 to 0.069514      1.3902      1.9651 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.069514      1.3902      1.9651
+::OP:: stage of CE took 242.20 sec
+::OP:: IEs for rhos 0.050 are 71 with percs 5.23%
+::OP:: IEs for rhos 0.100 are 69 with percs 13.72%
+::OP:: IEs for rhos 0.150 are 68 with percs 20.95%
+	second stage using gamma: 1  1  1 and k: 0.069514      1.3902      1.9651
+	second stage of CE took 237.33 sec
+	Gamma for IE = 71 is 0.97988      1.0403     0.98167
+	Gamma for IE = 69 is 0.98703      1.0281       0.986
+	Gamma for IE = 68 is 0.99015      1.0228     0.98732
+
+first mCE stage index: 1 using gamma: 0.97988      1.0403     0.98167
+first stage of CE took 4.80 sec
+Target event was reached 39193 times with gamma 0.97988      1.0403     0.98167
+Distance between the target and current fraction is -0.38386 and p_hat is: 0.78386
+counter at 4: 39193
+gammas at 4 with respect to k_default: 0.839 1.350 0.846
+::OP:: Updating rate from 0.069514      1.3902      1.9651 to 0.068116      1.4463      1.9291 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.068116      1.4463      1.9291
+::OP:: stage of CE took 227.92 sec
+::OP:: IEs for rhos 0.050 are 69 with percs 6.31%
+::OP:: IEs for rhos 0.100 are 68 with percs 10.20%
+::OP:: IEs for rhos 0.150 are 67 with percs 15.84%
+	second stage using gamma: 1  1  1 and k: 0.068116      1.4463      1.9291
+	second stage of CE took 230.71 sec
+	Gamma for IE = 69 is 0.98297      1.0366     0.98285
+	Gamma for IE = 68 is 0.98633      1.0303     0.98499
+	Gamma for IE = 67 is 0.98871      1.0257     0.98719
+
+first mCE stage index: 1 using gamma: 0.98297      1.0366     0.98285
+first stage of CE took 5.44 sec
+Target event was reached 38778 times with gamma 0.98297      1.0366     0.98285
+Distance between the target and current fraction is -0.37556 and p_hat is: 0.77556
+counter at 5: 38778
+gammas at 5 with respect to k_default: 0.825 1.400 0.831
+	### Qualified for leaping: mean_step:1387.33	apprx_future_steps:13	multiplier: 3
+	### Leaping initiated, skip the second stage ###
+
+first stage with leaping using gamma: 0.77232      1.3191       0.782
+first stage of CE took 131.41 sec
+Target event was reached 9406 times with gamma 0.77232      1.3191       0.782
+Distance between the target and current fraction is 0.21188 and p_hat is: 0.18812
+counter at 6: 9406
+gammas at 6 with respect to k_default: 0.648 1.781 0.661
+### Both UP and OP are reached with last stage as leaping. Last leaping initiated with gamma from weighted average ###
+
+first stage, last leaping using gamma: 0.8483      1.2172     0.85444
+first stage of CE took 49.63 sec
+Target event was reached 32420 times with gamma 0.8483      1.2172     0.85444
+Distance between the target and current fraction is -0.24840 and p_hat is: 0.64840
+counter at 7: 32420
+gammas at 7 with respect to k_default: 0.712 1.644 0.723
+
+Interpolation index: 1: Compute candidate gammas from interpolation
+
+*** Starting interpolation function ***
+Rxn 1 R2 goodness of fit: 0.650674 
+Rxn 1 R2 goodness of fit with farthest op removal: 0.556819 
+Rxn 2 R2 goodness of fit: 0.632255 
+Rxn 2 R2 goodness of fit with farthest op removal: 0.556819 
+Rxn 3 R2 goodness of fit: 0.649187 
+Rxn 3 R2 goodness of fit with farthest op removal: 0.556819 
+OP ind 1: g_opt = 0.714516 	 g_op = 0.711914 
+ind 1: new g_opt = 0.677502 
+OP ind 2: g_opt = 1.636743 	 g_op = 1.643736 
+ind 2: new g_opt = 1.717988 
+OP ind 3: g_opt = 0.725227 	 g_op = 0.722665 
+ind 3: new g_opt = 0.689598 
+projected optimal biasing parameter candidates for R1, wrt to k_default: 0.67750
+candidate rates for the next iteration: 0.05499
+projected optimal biasing parameter candidates for R2, wrt to k_default: 1.71799
+candidate rates for the next iteration: 1.83994
+projected optimal biasing parameter candidates for R3, wrt to k_default: 0.68960
+candidate rates for the next iteration: 1.57287
+Starting 1 simulation from interpolated gammas: 0.807  1.272  0.815
+Interpolation stage took 97.67 sec
+	## Target event was reached 20299 times with gamma 0.80729      1.2722     0.81535##
+	## Distance between the target and current fraction is -0.006##
+
+	*****Success: less than 0.100 distance remaining from target*****
+	     Exisiting Interpolation...
+	     Final rate is 0.054989      1.8399      1.5729
+	     Total simulation time is 1759.7089
+

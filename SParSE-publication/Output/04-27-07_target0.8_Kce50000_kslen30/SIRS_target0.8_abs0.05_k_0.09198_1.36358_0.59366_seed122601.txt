@@ -1,0 +1,12 @@
+
+##### Sim 17	Initial state: 100    1    0 with rates: 0.09198      1.3636     0.59366 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 4.85 sec
+Target event was reached 42158 times with gamma 1  1  1
+Distance between the target and current fraction is -0.04316 and p_hat is: 0.84316
+
+
+*****Success: less than 0.050 distance remaining from target*****
+final rate is 0.09198      1.3636     0.59366
+total simulation time is 4.8531
+

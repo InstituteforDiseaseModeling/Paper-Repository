@@ -1,0 +1,77 @@
+
+##### Sim 9	Initial state: 100    1    0 with rates: 0.035517      3.5261     0.43368 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 1.32 sec
+Target event was reached 0 times with gamma 1  1  1
+Distance between the target and current fraction is 0.80000 and p_hat is: 0.00000
+counter at 1: 0
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+**Updating rate from 0.035517      3.5261     0.43368 to 0.035517      3.5261     0.43368 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 18 with percs 0.52%
+IEs for rhos 0.010 are 16 with percs 1.13%
+	second stage using gamma: 1  1  1 and k: 0.035517      3.5261     0.43368
+	second stage of CE took 1.28 sec
+	Gamma for IE = 18 is 1.4341     0.62643      1.1345
+	Gamma for IE = 16 is 1.4022     0.64529      1.1174
+
+first mCE stage index: 1 using gamma: 1.4341     0.62643      1.1345
+first stage of CE took 28.82 sec
+Target event was reached 38 times with gamma 1.4341     0.62643      1.1345
+Distance between the target and current fraction is 0.79924 and p_hat is: 0.00076
+counter at 2: 38
+gammas at 2 with respect to k_default: 1.434 0.626 1.135
+**Updating rate from 0.035517      3.5261     0.43368 to 0.050935      2.2089     0.49202 and resetting gammas to 1s... **
+IEs for rhos 0.005 are 46 with percs 0.50%
+IEs for rhos 0.010 are 44 with percs 1.10%
+	second stage using gamma: 1  1  1 and k: 0.050935      2.2089     0.49202
+	second stage of CE took 28.82 sec
+	Gamma for IE = 46 is 1.2073     0.67418      1.1781
+	Gamma for IE = 44 is 1.1933     0.70808       1.115
+
+first mCE stage index: 1 using gamma: 1.2073     0.67418      1.1781
+first stage of CE took 52.61 sec
+Target event was reached 20722 times with gamma 1.2073     0.67418      1.1781
+Distance between the target and current fraction is 0.38556 and p_hat is: 0.41444
+counter at 3: 20722
+gammas at 3 with respect to k_default: 1.731 0.422 1.337
+**Updating rate from 0.050935      2.2089     0.49202 to 0.061493      1.4892     0.57966 and resetting gammas to 1s... **
+IEs for rhos 0.010 are 50 with percs 41.44%
+	second stage using gamma: 1  1  1 and k: 0.061493      1.4892     0.57966
+	second stage of CE took 59.01 sec
+	Gamma for IE = 50 is 1.0543     0.86523      1.0802
+
+first mCE stage index: 1 using gamma: 1.0543     0.86523      1.0802
+first stage of CE took 23.01 sec
+Target event was reached 35099 times with gamma 1.0543     0.86523      1.0802
+Distance between the target and current fraction is 0.09802 and p_hat is: 0.70198
+counter at 4: 35099
+gammas at 4 with respect to k_default: 1.825 0.365 1.444
+	### NOT qualified for leaping: mean_step:14377	apprx_future_steps:0	cutoff step size: 5
+**Updating rate from 0.061493      1.4892     0.57966 to 0.064832      1.2885     0.62613 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 70.20%
+	second stage using gamma: 1  1  1 and k: 0.064832      1.2885     0.62613
+	second stage of CE took 20.55 sec
+	Gamma for IE = 50 is 1.0176     0.94108      1.0329
+
+first mCE stage index: 1 using gamma: 1.0176     0.94108      1.0329
+first stage of CE took 10.93 sec
+Target event was reached 38651 times with gamma 1.0176     0.94108      1.0329
+Distance between the target and current fraction is 0.02698 and p_hat is: 0.77302
+counter at 5: 38651
+gammas at 5 with respect to k_default: 1.857 0.344 1.491
+**Updating rate from 0.064832      1.2885     0.62613 to 0.065972      1.2126     0.64671 and resetting gammas to 1s... **
+IEs for rhos 0.050 are 50 with percs 77.30%
+	second stage using gamma: 1  1  1 and k: 0.065972      1.2126     0.64671
+	second stage of CE took 10.70 sec
+	Gamma for IE = 50 is 1.0104     0.96203      1.0228
+
+first mCE stage index: 1 using gamma: 1.0104     0.96203      1.0228
+first stage of CE took 7.35 sec
+Target event was reached 40176 times with gamma 1.0104     0.96203      1.0228
+Distance between the target and current fraction is -0.00352 and p_hat is: 0.80352
+
+
+*****Success: less than 0.010 distance remaining from target*****
+final rate is 0.066658      1.1665     0.66146
+total simulation time is 244.4201
+

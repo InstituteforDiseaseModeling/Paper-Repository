@@ -1,0 +1,28 @@
+
+##### Sim 7	Initial state: 100    1    0 with rates: 0.10705       1.275     0.78558 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 3.70 sec
+Target event was reached 43858 times with gamma 1  1  1
+Distance between the target and current fraction is -0.47716 and p_hat is: 0.87716
+counter at 1: 43858
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+
+***** Change in bias direction: OP from UP ******
+::OP:: Updating rate from 0.10705       1.275     0.78558 to 0.10705       1.275     0.78558 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.10705       1.275     0.78558
+::OP:: stage of CE took 171.62 sec
+::OP:: IEs for rhos 0.010 are 80 with percs 1.65%
+	second stage using gamma: 1  1  1 and k: 0.10705       1.275     0.78558
+	second stage of CE took 179.32 sec
+	Gamma for IE = 80 is 0.90189      1.6812     0.69938
+
+first mCE stage index: 1 using gamma: 0.90189      1.6812     0.69938
+first stage of CE took 44.70 sec
+Target event was reached 24618 times with gamma 0.90189      1.6812     0.69938
+Distance between the target and current fraction is -0.09236 and p_hat is: 0.49236
+
+
+*****Success: less than 0.100 distance remaining from target*****
+final rate is 0.096552      2.1435     0.54942
+total simulation time is 399.3474
+

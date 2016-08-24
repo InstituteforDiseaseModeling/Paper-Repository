@@ -1,0 +1,80 @@
+
+##### Sim 28	Initial state: 100    1    0 with rates: 0.038589     0.82637      1.0343 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 5.50 sec
+Target event was reached 39138 times with gamma 1  1  1
+Distance between the target and current fraction is -0.38276 and p_hat is: 0.78276
+counter at 1: 39138
+gammas at 1 with respect to k_default: 1.000 1.000 1.000
+
+***** Change in bias direction: OP from UP ******
+::OP:: Updating rate from 0.038589     0.82637      1.0343 to 0.038589     0.82637      1.0343 and resetting gammas to 1s... **
+::OP:: stage using gamma: 1  1  1 and k: 0.038589     0.82637      1.0343
+::OP:: stage of CE took 126.86 sec
+::OP:: IEs for rhos 0.050 are 68 with percs 5.83%
+::OP:: IEs for rhos 0.100 are 66 with percs 13.15%
+::OP:: IEs for rhos 0.150 are 65 with percs 18.88%
+	second stage using gamma: 1  1  1 and k: 0.038589     0.82637      1.0343
+	second stage of CE took 132.95 sec
+	Gamma for IE = 68 is 0.95982      1.0894     0.96293
+	Gamma for IE = 66 is 0.9725      1.0593      0.9713
+	Gamma for IE = 65 is 0.97755      1.0499     0.97456
+
+first mCE stage index: 1 using gamma: 0.95982      1.0894     0.96293
+first stage of CE took 7.96 sec
+Target event was reached 37768 times with gamma 0.95982      1.0894     0.96293
+Distance between the target and current fraction is -0.35536 and p_hat is: 0.75536
+counter at 2: 37768
+gammas at 2 with respect to k_default: 0.960 1.089 0.963
+	### Qualified for leaping: mean_step:1370	apprx_future_steps:12	multiplier: 3
+	### Leaping initiated, skip the second stage ###
+
+first stage with leaping using gamma: 0.82991      1.3783     0.84306
+first stage of CE took 77.50 sec
+Target event was reached 6990 times with gamma 0.82991      1.3783     0.84306
+Distance between the target and current fraction is 0.26020 and p_hat is: 0.13980
+counter at 3: 6990
+gammas at 3 with respect to k_default: 0.830 1.378 0.843
+### Both UP and OP are reached with last stage as leaping. Last leaping initiated with gamma from weighted average ###
+
+first stage, last leaping using gamma: 0.88483      1.2562     0.89373
+first stage of CE took 45.79 sec
+Target event was reached 26011 times with gamma 0.88483      1.2562     0.89373
+Distance between the target and current fraction is -0.12022 and p_hat is: 0.52022
+counter at 4: 26011
+gammas at 4 with respect to k_default: 0.885 1.256 0.894
+
+Interpolation index: 1: Compute candidate gammas from interpolation
+
+*** Starting interpolation function ***
+Rxn 1 R2 goodness of fit: 0.667106 
+Rxn 1 R2 goodness of fit with farthest op removal: 0.743447 
+Fit is better after removing farthest op. Computing new fit
+Rxn 2 R2 goodness of fit: 0.667106 
+Rxn 2 R2 goodness of fit with farthest op removal: 0.743447 
+Fit is better after removing farthest op. Computing new fit
+Rxn 3 R2 goodness of fit: 0.667106 
+Rxn 3 R2 goodness of fit with farthest op removal: 0.743447 
+Fit is better after removing farthest op. Computing new fit
+OP ind 1: g_opt = 0.895589 	 g_op = 0.884826 
+ind 1: new g_opt = 0.867472 
+OP ind 2: g_opt = 1.232249 	 g_op = 1.256191 
+ind 2: new g_opt = 1.294792 
+OP ind 3: g_opt = 0.903662 	 g_op = 0.893731 
+ind 3: new g_opt = 0.877719 
+projected optimal biasing parameter candidates for R1, wrt to k_default: 0.86747
+candidate rates for the next iteration: 0.03348
+projected optimal biasing parameter candidates for R2, wrt to k_default: 1.29479
+candidate rates for the next iteration: 1.06998
+projected optimal biasing parameter candidates for R3, wrt to k_default: 0.87772
+candidate rates for the next iteration: 0.90781
+Starting 1 simulation from interpolated gammas: 0.867  1.295  0.878
+Interpolation stage took 60.29 sec
+	## Target event was reached 18964 times with gamma 0.86747      1.2948     0.87772##
+	## Distance between the target and current fraction is 0.021##
+
+	*****Success: less than 0.050 distance remaining from target*****
+	     Exisiting Interpolation...
+	     Final rate is 0.033475        1.07     0.90781
+	     Total simulation time is 457.6845
+

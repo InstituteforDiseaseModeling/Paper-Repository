@@ -1,0 +1,12 @@
+
+##### Sim 4	Initial state: 100    1    0 with rates: 0.12087      3.7922      2.5627 #####
+first mCE stage index: 1 using gamma: 1  1  1
+first stage of CE took 222.73 sec
+Target event was reached 15655 times with gamma 1  1  1
+Distance between the target and current fraction is 0.08690 and p_hat is: 0.31310
+
+
+*****Success: less than 0.100 distance remaining from target*****
+final rate is 0.12087      3.7922      2.5627
+total simulation time is 222.7365
+
